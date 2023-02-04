@@ -21,9 +21,9 @@ public class Service
         classC.secondOfC();
 
         //Overriden Methods
-        classC.third();
-        classB.third();
-        classA.third();
+        classC.third(12,2);
+        classB.third(12,2);
+        classA.third(12,2);
 
 
 

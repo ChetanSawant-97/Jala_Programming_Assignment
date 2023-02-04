@@ -5,7 +5,8 @@ public class A
     int num1;
     int num2;
 
-
+    public A() {
+    }
 
     public A(int num1, int num2) {
         this.num1 = num1;
@@ -20,8 +21,8 @@ public class A
     {
         System.out.println("Class A second method");
     }
-    void third()
+    void third(int num1, int num2)
     {
-        System.out.println("Class A third method");
+        System.out.println("This is third method from Class 'A' \n" + (num1 - num2) + " Is the difference of "+ num1  +" "+ num2);
     }
 }
